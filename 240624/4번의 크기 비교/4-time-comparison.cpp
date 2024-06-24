@@ -2,11 +2,8 @@
 using namespace std;
 
 void big(int x, int y) {
-    if(x > y) cout << 1;
-    else cout << 0;
-    cout << endl;
+    cout << (x > y) << endl;
 }
-
 int main() {
     int a, b, c, d, e;
     cin >> a >> b >> c >> d >> e;
