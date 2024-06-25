@@ -9,7 +9,7 @@ int main() {
     else if(b >= 95)
         cout << 100000;
     else if(b >= 90)
-        cout << 500000;
+        cout << 50000;
     else
         cout << 0;
     return 0;
