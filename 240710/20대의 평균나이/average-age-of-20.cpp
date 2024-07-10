@@ -6,7 +6,7 @@ int main() {
     float age = 0, sum = 0;
     cout << fixed;
     cout.precision(2);
-    while(age < 30) {
+    for(int i = 0; i < 100; i++) {
         cin >> age;
         if(age >= 30)
             break;
