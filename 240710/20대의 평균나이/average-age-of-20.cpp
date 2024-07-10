@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int n = 0;
-    float age = 0, sum = 0;
+    float age, sum = 0;
     cout << fixed;
     cout.precision(2);
     while(1) {
