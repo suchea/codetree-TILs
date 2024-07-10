@@ -8,11 +8,13 @@ int main() {
     cout.precision(2);
     while(1) {
         cin >> age;
-        if(age >= 30)
+        if(age >= 30) {
+            cout << sum / n;
             break;
+        }
         sum += age;
         n++;
     }
-    cout << sum / n;
+    
     return 0;
 }
